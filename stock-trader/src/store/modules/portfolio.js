@@ -17,7 +17,6 @@ export default {
           quantity: quantity
         })
       }
-
       state.funds -= stockPrice * quantity
     },
     sellStock(state, { stockId, quantity, stockPrice }){
